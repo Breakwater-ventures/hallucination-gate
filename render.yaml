@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: hallucination-gate
+    runtime: node
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 4021
+      - key: PAY_TO_ADDRESS
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FACILITATOR_URL
+        value: https://facilitator.payai.network
+      - key: NETWORK
+        value: eip155:8453

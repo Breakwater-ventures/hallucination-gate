@@ -1,0 +1,4 @@
+node_modules/
+.env
+request-log.jsonl
+test-e2e.cjs

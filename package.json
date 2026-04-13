@@ -1,0 +1,21 @@
+{
+  "name": "hallucination-gate",
+  "version": "1.0.0",
+  "description": "Agent verification API — pay-per-call claim verification via x402",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@x402/core": "latest",
+    "@x402/evm": "latest",
+    "@x402/express": "latest",
+    "@x402/extensions": "^2.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "openai": "^4.73.0"
+  }
+}
