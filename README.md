@@ -18,6 +18,21 @@ LLMs hallucinate. When agents generate responses that include facts, figures, or
 | `GET /stats` | Free | Service statistics |
 | `GET /` | Free | API documentation |
 
+
+## One-Click Deploy
+
+### Render (Recommended — Free Tier)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Breakwater-ventures/hallucination-gate)
+
+### Railway
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template?template=https://github.com/Breakwater-ventures/hallucination-gate)
+
+After deploying, set these environment variables:
+- `PAY_TO_ADDRESS` — Your EVM wallet for receiving USDC
+- `GEMINI_API_KEY` — Google Gemini API key ([get one free](https://aistudio.google.com/apikey))
+- `FACILITATOR_URL` — `https://facilitator.payai.network`
+- `NETWORK` — `eip155:8453`
+
 ## Quick Start
 
 ```bash
