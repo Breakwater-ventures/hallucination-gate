@@ -1,0 +1,23 @@
+{
+  "name": "hallucination-gate-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Hallucination Gate — x402-powered fact-checking for AI agents",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "hallucination-gate-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "x402", "hallucination", "fact-check", "verification", "ai-agents"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@x402/fetch": "^2.9.0",
+    "@x402/evm": "^2.9.0",
+    "viem": "^2.30.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.24.0"
+  }
+}
